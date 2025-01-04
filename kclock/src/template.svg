@@ -1,0 +1,115 @@
+<svg width="600" height="800" xmlns="http://www.w3.org/2000/svg" version="1.1">
+    <!-- Background -->
+    <rect x="0" y="0" width="600" height="800" fill="white"/>
+
+    <!-- Header -->
+    <rect x="0" y="0" width="600" height="200" fill="black"/>
+    <text x="300" y="100"
+          font-family="Arial" font-size="75" text-anchor="middle"
+          fill="white">
+        WEEKDAY
+    </text>
+    <text x="300" y="175"
+          font-family="Arial" font-size="50" text-anchor="middle"
+          fill="white">
+        DATE
+    </text>
+
+    <!-- Clock -->
+    <circle cx="300" cy="450" r="180" stroke="black" stroke-width="4" fill="white"/>
+    <line x1="300" y1="450" x2="300" y2="350"
+          stroke="black" stroke-width="8" stroke-linecap="round"
+          transform="rotate(HOURS_ANGLE, 300, 450)"/>
+    <line x1="300" y1="450" x2="300" y2="320"
+          stroke="black" stroke-width="4" stroke-linecap="round"
+          transform="rotate(MINUTES_ANGLE, 300, 450)"/>
+    <circle cx="300" cy="450" r="10" fill="black"/>
+    <text x="300" y="710"
+          font-family="'Digital-7', monospace" font-size="60" text-anchor="middle"
+          fill="black"
+    >
+        HOURS:MINUTES
+    </text>
+
+    <!-- Hour ticks -->
+    <g stroke="black" stroke-width="5">
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(0, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(30, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(60, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(90, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(120, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(150, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(180, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(210, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(240, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(270, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(300, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="290" transform="rotate(330, 300, 450)"/>
+    </g>
+
+    <!-- Minute ticks -->
+    <g stroke="black" stroke-width="1">
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(6, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(12, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(18, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(24, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(36, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(42, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(48, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(54, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(66, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(72, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(78, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(84, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(96, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(102, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(108, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(114, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(126, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(132, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(138, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(144, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(156, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(162, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(168, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(174, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(186, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(192, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(198, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(204, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(216, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(222, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(228, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(234, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(246, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(252, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(258, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(264, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(276, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(282, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(288, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(294, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(306, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(312, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(318, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(324, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(336, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(342, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(348, 300, 450)"/>
+        <line x1="300" y1="270" x2="300" y2="280" transform="rotate(354, 300, 450)"/>
+    </g>
+
+
+    <!-- Footer -->
+    <rect x="0" y="750" width="600" height="50" fill="white" stroke="black" stroke-width="1"/>
+    <text x="120" y="780" font-family="Arial" font-size="18" fill="black">
+        Battery:
+    </text>
+    <rect x="200" y="765" width="200" height="20" fill="#e0e0e0" stroke="black" stroke-width="1"/>
+    <rect x="200" y="765" width="BATTERY_WIDTH" height="20" fill="black" stroke="black" stroke-width="1"/>
+    <text x="420" y="780"
+          font-family="Arial" font-size="18"
+          fill="black">
+        BATTERY_LEVEL%
+    </text>
+</svg>
