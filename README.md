@@ -24,3 +24,7 @@ Jailbroken Kindle device with [KUAL](https://www.mobileread.com/forums/showthrea
 
 ## Tested on
 * Amazon Kindle 4 
+
+
+## Warning
+**Use at your own risk.** I am not responsible for any damage or issues that may arise from using this extension on your Kindle device.
