@@ -20,3 +20,7 @@ Jailbroken Kindle device with [KUAL](https://www.mobileread.com/forums/showthrea
 ## Usage
 * The clock will automatically update every minute to display the current time, date, weekday, and battery level.
 * To exit the clock and return to the Kindle home screen, press the "Home" button on your Kindle device.
+
+
+## Tested on
+* Amazon Kindle 4 
